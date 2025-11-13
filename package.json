@@ -7,8 +7,9 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "start": "vite preview --port $PORT"
+  "start": "vite preview --port $PORT --host"
 }
+
 ,
   "dependencies": {
     "@supabase/supabase-js": "^2.81.1",
